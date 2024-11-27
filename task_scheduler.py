@@ -2,7 +2,7 @@ from collections import defaultdict, deque
 import threading
 from typing import List, Dict, Optional
 import logging
-from task import Task, RetryPolicy, TaskRegistry, UnreliableTask, TaskResult
+from task import Task, RetryPolicy, TaskRegistry, TaskResult
 
 class TaskScheduler:
     def __init__(
